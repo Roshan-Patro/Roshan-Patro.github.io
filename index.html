@@ -54,7 +54,7 @@
             </div>
             
             <div>
-                <button type="button"><span></span>Resume</button>
+                <button type="button" class="resumeButton"><span></span>Resume</button>
                 <!-- <button type="button"><span></span>Subscribe</button> -->
             </div>
         </div>
@@ -90,6 +90,11 @@
     const navbar = document.querySelector(".navbar");
     const menuBtn = document.querySelector(".menu-btn");
     const cancelBtn = document.querySelector(".cancel-btn");
+    const resumeBtn = document.querySelector(".resumeButton");
+    
+    resumeBtn.onclick = ()=>{
+        location.href = "https://drive.google.com/file/d/123JMbFdR-2iujFJkcevuM-G-KgqETbBF/view?usp=sharing";
+    }
     menuBtn.onclick = ()=>{
       navbar.classList.add("show");
       menuBtn.classList.add("hide");
