@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roshan Patro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="banner">
+    <nav class="navbar">
+        <div class="content">
+    
+          <div class="logo">
+            <img src="logo.jpg" alt="">
+            <a href="#">Roshan</a>
+          </div>
+    
+          <ul class="menu-list">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+    </nav>
+
+    <div class="contentBelowNav">
+        <div class="innerContent">
+            <h3>Hi, I am Roshan Patro,</h3>
+            <h4>A Java Developer</h4>
+            <p>A motivated Java Developer with proficiency in potential Frontend and Backend technologies, excited for an opportunity to bring my understanding into real-life problem-solving applications and grow in my career being an integral part of a solution-oriented and technology-driven organization.</p>
+
+            
+            <div id="outerIconContainer">
+                <div id="iconHoler">
+                    <ul>
+                        <!-- <li class="socialIcons"><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+                        <!-- <li class="socialIcons"><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                        <li class="socialIcons"><a href="https://www.linkedin.com/in/t-roshan-kumar-patro/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="socialIcons"><a href="https://github.com/Roshan-Patro" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li class="socialIcons"><a href="https://www.quora.com/profile/T-Roshan-Kumar-Patro" target="_blank"><i class="fa fa-quora"></i></a></li>
+                    </ul>
+                </div>    
+            </div>
+            
+            <div>
+                <button type="button"><span></span>Resume</button>
+                <!-- <button type="button"><span></span>Subscribe</button> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="class_about" id="about">
+    <div class="section_container">
+        <h2>ABOUT</h2>
+    </div>
+</section>
+
+<section class="class_skills" id="skills">
+    <div class="section_container">
+        <h2>SKILLS</h2>
+    </div>
+</section>
+<section class="class_projects" id="projects">
+    <div class="section_container">
+        <h2>PROJECTS</h2>
+    </div>
+</section>
+<section class="class_contact" id="contact">
+    <div class="section_container">
+        <h2>CONTACT</h2>
+    </div>
+</section>
+  
+  
+
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    // window.onscroll = ()=>{
+    //   this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    // }
+  </script>
+</body>
+</html>
