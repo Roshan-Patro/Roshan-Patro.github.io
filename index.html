@@ -38,9 +38,11 @@
         <div class="innerContent">
             <h3>Hi, I am Roshan Patro,</h3>
             <h4>A Java Developer</h4>
+            <div id="HomePageImg">
+                <img src="logo.jpg" alt="">
+            </div>
             <p>A motivated Java Developer with proficiency in potential Frontend and Backend technologies, excited for an opportunity to bring my understanding into real-life problem-solving applications and grow in my career being an integral part of a solution-oriented and technology-driven organization.</p>
-
-            
+                        
             <div id="outerIconContainer">
                 <div id="iconHoler">
                     <ul>
@@ -50,12 +52,11 @@
                         <li class="socialIcons"><a href="https://github.com/Roshan-Patro" target="_blank"><i class="fa fa-github"></i></a></li>
                         <li class="socialIcons"><a href="https://www.quora.com/profile/T-Roshan-Kumar-Patro" target="_blank"><i class="fa fa-quora"></i></a></li>
                     </ul>
+                </div>
+                <div>
+                    <button class="resumeButton" type="button"><span></span>Resume</button>
+                    <!-- <button type="button"><span></span>Subscribe</button> -->
                 </div>    
-            </div>
-            
-            <div>
-                <button type="button" class="resumeButton"><span></span>Resume</button>
-                <!-- <button type="button"><span></span>Subscribe</button> -->
             </div>
         </div>
     </div>
@@ -93,8 +94,7 @@
     const resumeBtn = document.querySelector(".resumeButton");
     
     resumeBtn.onclick = ()=>{
-        location.target = "_blank";
-        location.href = "https://drive.google.com/file/d/123JMbFdR-2iujFJkcevuM-G-KgqETbBF/view?usp=sharing";
+        window.open("https://drive.google.com/file/d/123JMbFdR-2iujFJkcevuM-G-KgqETbBF/view?usp=sharing", '_blank');
     }
     menuBtn.onclick = ()=>{
       navbar.classList.add("show");
