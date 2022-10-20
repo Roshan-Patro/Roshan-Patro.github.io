@@ -1,0 +1,37 @@
+<!-- 
+        Animate on scroll options:
+
+        <div data-aos="fade-up"></div>
+        <div data-aos="fade-right"></div>
+        <div data-aos="fade-left"></div>
+        <div data-aos="flip-up"></div>
+        <div data-aos="zoom-in-up"></div>
+
+        <div data-aos="fade-up"
+            data-aos-duration="3000">
+        </div>
+
+        <div data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom">
+        </div>
+
+        <div data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom">
+        </div>
+
+        <div data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
+        </div>
+
+        <div data-aos="fade-up"
+            data-aos-anchor-placement="top-center">
+        </div>
+
+        <div data-aos="fade-up"
+            data-aos-anchor-placement="center-center">
+        </div>
+
+        <div data-aos="fade-up"
+            data-aos-anchor-placement="bottom-center">
+        </div>
+     -->
