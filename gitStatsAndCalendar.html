@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gitStatsAndCalendar.css">
+    <title>Git Stats</title>
+</head>
+<body>
+    <div id="github_stats">
+        <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=roshan-patro&" alt="roshan-patro" /></p>
+        <p><img src="https://github-readme-stats.vercel.app/api?username=Roshan-Patro&show_icons=true&count_private=true&theme=merko" alt="roshan-patro"/></p>
+    </div>
+    <!-- Include the library. -->
+<script
+src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+rel="stylesheet"
+href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+  <!-- Loading stuff -->
+  Loading the data here.
+</div>
+
+<script>
+  GitHubCalendar(".calendar", "Roshan-Patro");
+
+  // or enable responsive functionality:
+  GitHubCalendar(".calendar", "Roshan-Patro", { responsive: true });
+
+  // Use a proxy
+  GitHubCalendar(".calendar", "Roshan-Patro", {
+     proxy (username) {
+       return fetch(`https://your-proxy.com/github?user=${Roshan-Patro}`)
+     }
+  }).then(r => r.text())
+</script>
+</body>
+</html>

@@ -29,21 +29,26 @@
     margin-top: 5px;
 }
 
+.project_img_div{
+    height: 310px;
+    margin-bottom: 10px;
+}
+
 .project_img{
     margin-bottom: 5px;
+    height: 100%;
 }
 
 #brightlineImg{
     width: 100%;
 }
 
-#zee5_clone img{
+#zee5Img{
     width: 100%;
 }
 
 .project_desc{
     margin-bottom: 3px;
-    font-size: 17px;
     margin-right: 3px;
     margin-left: 3px;
 }
@@ -58,4 +63,16 @@
 
 .project_buttons{
     margin-bottom: 5px;
+}
+
+.source_code_btn, .live_btn{
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.source_code_btn, .live_btn:hover{
+    cursor: pointer;
 }
