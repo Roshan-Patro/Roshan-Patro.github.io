@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#projectCards_1_2{
+    display: flex;
+    width: 100vw;
+    gap: 20px;
+    justify-content: center;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+}
+
+#brightline_clone{
+    border: 1px solid black;
+    width: 47%;
+    text-align: center;
+}
+
+#zee5_clone{
+    border: 1px solid black;
+    width: 47%;
+    text-align: center;
+}
+
+.project_title{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.project_img{
+    margin-bottom: 5px;
+}
+
+#brightlineImg{
+    width: 100%;
+}
+
+#zee5_clone img{
+    width: 100%;
+}
+
+.project_desc{
+    margin-bottom: 3px;
+    font-size: 17px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.tech_stack{
+    margin-bottom: 3px;
+}
+
+.members_days{
+    margin-bottom: 3px;
+}
+
+.project_buttons{
+    margin-bottom: 5px;
+}
