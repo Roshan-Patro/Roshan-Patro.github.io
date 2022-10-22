@@ -8,6 +8,8 @@
     width: 100vw;
     gap: 20px;
     justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
     /* padding-left: 40px;
     padding-right: 40px; */
 }
@@ -16,6 +18,8 @@
     border: 1px solid black;
     width: 47%;
     text-align: center;
+    display: grid;
+    align-items: center;
 }
 
 #zee5_clone{
@@ -31,38 +35,33 @@
 
 .project_img_div{
     height: 310px;
+    width: 100%;
     margin-bottom: 10px;
 }
 
 .project_img{
     margin-bottom: 5px;
     height: 100%;
-}
-
-#brightlineImg{
-    width: 100%;
-}
-
-#zee5Img{
-    width: 100%;
+    width: 95%;
 }
 
 .project_desc{
-    margin-bottom: 3px;
+    margin-bottom: 8px;
     margin-right: 3px;
     margin-left: 3px;
+    line-height: normal;
 }
 
 .tech_stack{
-    margin-bottom: 3px;
+    margin-bottom: 8px;
 }
 
 .members_days{
-    margin-bottom: 3px;
+    margin-bottom: 8px;
 }
 
 .project_buttons{
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 }
 
 .source_code_btn, .live_btn{

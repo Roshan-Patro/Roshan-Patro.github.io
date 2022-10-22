@@ -256,7 +256,7 @@
 {
     color: #e4405f;
 } */
-button{
+.resumeButton{
     width: 200px;
     padding: 13px 0;
     text-align: center;
@@ -284,38 +284,40 @@ span{
     bottom: 0;
     transition: 0.5s;
 }
-button:hover span{
+.resumeButton:hover span{
     width: 100%;
 }
-button:hover{
+.resumeButton:hover{
     border: none;
 }
 .section_container{
     text-align: center;
 }
 .section_container h2{
-    color: brown;
+    color: #92bcb5;
     font-size: 50px;
 }
 #about{
-    background-color: #ddd;
+    /* background-color: #020516; */
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 #skills{
-    background-color: #ddd;
+    /* background-color: #ddd; */
     width: 100%;
-    height: 100vh;
+    margin-top: 30px;
+    /* height: 100vh; */
 }
 #projects{
-    background-color: #ddd;
+    /* background-color: #020516; */
     width: 100%;
-    height: 100vh;
+    margin-top: 40px;
+    /* height: 100vh; */
 }
 #contact{
-    background-color: #ddd;
+    /* background-color: #ddd; */
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 @media (max-width: 1230px) {
 .content{
