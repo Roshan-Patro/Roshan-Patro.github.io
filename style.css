@@ -462,16 +462,29 @@ body.disabled{
         width: 170px;
         height: 165px;
     }
+    .section_container h2{
+        font-size: 40px;
+    }
 }
 @media (max-width: 278px) {
     .innerContent h3{
         font-size: 20px;
     }
-    /* .innerContent h4{
-        font-size: 15px;
+    #iconHoler ul li a{
+        width: 42px;
+        height: 42px;
+    }
+    #iconHoler ul li a .fa{
+        line-height: calc(42px - 12px);
+    }
+}
+@media (max-width: 265px) {
+    .innerContent h3{
+        font-size: 18px;
     }
     #HomePageImg img{
-        width: 170px;
-        height: 165px;
-    } */
+        width: 160px;
+        height: 155px;
+    }
 }
+

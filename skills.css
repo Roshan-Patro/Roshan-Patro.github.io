@@ -125,3 +125,11 @@
         align-items: center;
     }
 }
+@media (max-width:285px){
+    #frontend_skills{
+        width: 210px;
+    }
+    #backend_skills{
+        width: 210px;
+    }
+}
