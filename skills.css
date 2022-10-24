@@ -81,9 +81,11 @@
     display: grid;
     text-align: center;
     /* border: 1px solid red; */
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     background-color: #92bcb5;
+    padding-top: 8px;
+    border-radius: 5px;
 }
 .individual_tool img{
     width: 40px;
