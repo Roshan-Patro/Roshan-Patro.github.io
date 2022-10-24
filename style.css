@@ -447,8 +447,11 @@ body.disabled{
     .innerContent h3{
         font-size: 23px;
     }
+    .banner{
+        height: 145vh;
+    }
 }
-@media (max-width: 280px) {
+@media (max-width: 306px) {
     .innerContent h3{
         font-size: 21px;
     }
@@ -459,4 +462,16 @@ body.disabled{
         width: 170px;
         height: 165px;
     }
+}
+@media (max-width: 278px) {
+    .innerContent h3{
+        font-size: 20px;
+    }
+    /* .innerContent h4{
+        font-size: 15px;
+    }
+    #HomePageImg img{
+        width: 170px;
+        height: 165px;
+    } */
 }
