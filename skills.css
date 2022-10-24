@@ -92,3 +92,24 @@
     width: 40px;
     height: 40px;
 }
+
+@media (max-width:840px){
+    #skills_div{
+        gap: 22vw;
+    }
+}
+@media (max-width:755px){
+    #skills_div{
+        gap: 10vw;
+    }
+}
+@media (max-width:635px){
+    #skills_div{
+        gap: 5vw;
+    }
+}
+@media (max-width:590px){
+    #skills_div{
+        display: grid;
+    }
+}
