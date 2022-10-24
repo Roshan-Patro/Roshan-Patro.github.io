@@ -8,13 +8,12 @@
     margin-top: 30px;
     /* border: 1px solid red; */
 }
-
 #frontend_skills{
     display: grid;
     width: 250px;
     /* border: 1px solid blue; */
 }
-#frontend_skills div{
+.tech_cards{
     display: flex;
     align-items: center;
     gap: 25px;
@@ -29,14 +28,14 @@
     width: 250px;
     /* border: 1px solid orangered; */
 }
-#backend_skills div{
+/* #backend_skills div{
     display: flex;
     align-items: center;
     gap: 25px;
     background-color: #92bcb5;
-    /* border: 1px solid yellow; */
+    border: 1px solid yellow;
     height: fit-content;
-}
+} */ 
 
 .skills_type_title{
     display: flex;
