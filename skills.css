@@ -9,22 +9,26 @@
     /* border: 1px solid red; */
 }
 #frontend_skills{
-    display: grid;
+    /* display: grid; */
     width: 250px;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
+}
+#frontend_div2{
+    border: 1px solid orange;
 }
 .tech_cards{
     display: flex;
     align-items: center;
     gap: 25px;
+    margin-bottom: 15px;
+    margin-top: 20px;
     background-color: #92bcb5;
     /* border: 1px solid yellow; */
     height: fit-content;
 }
 
 #backend_skills{
-    display: grid;
-    gap: 15px;
+    /* display: grid; */
     width: 250px;
     /* border: 1px solid orangered; */
 }
