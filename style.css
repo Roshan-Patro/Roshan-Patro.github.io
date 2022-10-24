@@ -433,13 +433,30 @@ body.disabled{
     }
 }
 @media (max-width: 380px) {
-.navbar .logo a{
-    font-size: 27px;
+    .navbar .logo a{
+        font-size: 27px;
+    }
+    .innerContent h3{
+        font-size: 26px;
+    }
+    .innerContent h4{
+        font-size: 16px;
+    }
 }
-.innerContent h3{
-    font-size: 26px;
+@media (max-width: 345px) {
+    .innerContent h3{
+        font-size: 23px;
+    }
 }
-.innerContent h4{
-    font-size: 16px;
-}
+@media (max-width: 280px) {
+    .innerContent h3{
+        font-size: 21px;
+    }
+    .innerContent h4{
+        font-size: 15px;
+    }
+    #HomePageImg img{
+        width: 170px;
+        height: 165px;
+    }
 }
