@@ -23,6 +23,7 @@
     background-color: #92bcb5;
     /* border: 1px solid yellow; */
     height: fit-content;
+    border-radius: 5px;
 }
 
 #backend_skills{
