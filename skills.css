@@ -57,7 +57,10 @@
 .outer_icon_div img{
     width: 100%;
 }
-
+#tools_div_container{
+    display: flex;
+    justify-content: center;
+}
 #tools_div{
     /* border: 1px solid green; */
     display: flex;
