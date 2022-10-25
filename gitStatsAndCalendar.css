@@ -3,3 +3,9 @@
     justify-content: center;
     gap: 20px;
 }
+.calendar{
+    /* height: 700px;
+    color: black; */
+    border: 1px solid black;
+    width: 100vw;
+}
