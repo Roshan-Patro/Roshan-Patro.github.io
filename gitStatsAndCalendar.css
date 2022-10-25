@@ -7,13 +7,14 @@
     justify-content: center;
     gap: 20px;
     width: fit-content;
+    margin-bottom: 30px;
 }
-/* .calendar{
-    height: 700px;
-    color: black;
+.calendar{
+    /* height: 700px; */
     border: 1px solid black;
-    width: fit-content;
-} */
+    width: 100vw;
+    /* font-size: 12px; */
+}
 /* .calendar img{
     border: 1px solid orange;
 } */
@@ -27,3 +28,18 @@
 #github_stats img{
     width: 450px;
 }
+
+@media (max-width:967px){
+    #github_stats{
+        display: grid;
+    }
+    #github_stats img{
+        width: 550px;
+    }
+}
+
+/* @media (max-width:750px){
+    .calendar{
+        width
+    }
+} */
