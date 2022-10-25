@@ -8,8 +8,9 @@
     <!-- <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/> -->
     
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     
     <link rel="stylesheet" href="projects.css">
     <link rel="stylesheet" href="gitStatsAndCalendar.css">
@@ -197,8 +198,8 @@
                         <p class="members_days" data-aos="flip-up">A collaborative project developed by a 5-member team within 4 days.</p>
                     </div>
                     <div class="project_buttons">
-                        <button class="source_code_btn">Source Code <i class="fa fa-github"></i></button>
-                        <button class="live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                        <button class="source_code_btn" id="brightline_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="brightline_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
                     </div>
                 </div>
             </div>
@@ -217,8 +218,8 @@
                     </div>
         
                     <div class="project_buttons">
-                        <button class="source_code_btn">Source Code <i class="fa fa-github"></i></button>
-                        <button class="live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                        <button class="source_code_btn" id="zee5_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="zee5_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
                     </div>
                 </div>
             </div>
@@ -252,15 +253,24 @@
     <div class="section_container">
         <h2>CONTACT</h2>
     </div>
-
+    <div id="get_in_touch_container">
+        <div id="get_in_touch">
+            <h4>Starting a project? Stuck in a project? Want to make an existing one better? Struggling with 
+                any technical concepts? <br>Please consider getting in touch with me to let me give my best.</h4>
+        </div>
+    </div>
+    
     <div id="contact_iconHoler">
         <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/t-roshan-kumar-patro/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/Roshan-Patro" target="_blank"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://twitter.com/Roshank64860817" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.quora.com/profile/T-Roshan-Kumar-Patro" target="_blank"><i class="fa fa-quora"></i></a></li>
+            <li><a href="https://www.instagram.com/kumar_roshan_patro/" target="_blank"><i class="fa fa-instagram"></i></a></li>
         </ul>
+    </div>
+    <div id="end_wish">
+        <h4>Wish you become your best version for no reason.<i class="far fa-smile"></i></h4>
     </div>
 </section>
   
@@ -320,6 +330,7 @@
   </script>
   
   <script src="navbar.js"></script>
+  <script src="projects.js"></script>
 
 
 </body>
