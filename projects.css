@@ -1,11 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    /* overflow-x: hidden; */
     font-family: sans-serif;
+}
+#projects_section_container{
+    display: grid;
+    justify-content: center;
 }
 #projectCards_1_2{
     display: flex;
-    width: 100vw;
+    width: fit-content;
+    max-width: 100vw;
     gap: 20px;
     justify-content: center;
     margin-top: 40px;
@@ -16,15 +22,15 @@
 
 #brightline_clone{
     border: 1px solid black;
-    width: 47%;
+    width: 43vw;
     text-align: center;
-    display: grid;
-    align-items: center;
+    /* display: grid;
+    align-items: center; */
 }
 
 #zee5_clone{
     border: 1px solid black;
-    width: 47%;
+    width: 43vw;
     text-align: center;
 }
 
@@ -34,7 +40,7 @@
 }
 
 .project_img_div{
-    height: 310px;
+    height: 22vw;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -74,4 +80,51 @@
 
 .source_code_btn, .live_btn:hover{
     cursor: pointer;
+}
+
+@media (max-width:860px){
+    #projectCards_1_2{
+        display: grid;
+    }
+    #brightline_clone{
+        width: 70vw;
+    }
+    #zee5_clone{
+        width: 70vw;
+    }
+    .project_img_div{
+        height: 30vw;
+    }
+}
+@media (max-width:382px){
+    #brightline_clone{
+        width: 80vw;
+    }
+    #zee5_clone{
+        width: 80vw;
+    }
+    .project_img_div{
+        height: 37vw;
+    }
+}
+@media (max-width:305px){
+    #brightline_clone{
+        width: 85vw;
+    }
+    #zee5_clone{
+        width: 85vw;
+    }
+    .project_img_div{
+        height: 40vw;
+    }
+    .project_desc{
+        font-size: 15px;
+    }
+    .members_days{
+        font-size: 15px;
+    }
+    .source_code_btn, .live_btn{
+        height: 30px;
+        font-size: 15px;
+    }
 }

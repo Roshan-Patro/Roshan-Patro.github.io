@@ -308,10 +308,13 @@ span{
     margin-top: 30px;
     /* height: 100vh; */
 }
+#projects_top_section{
+    height: 45px;
+}
 #projects{
     /* background-color: #020516; */
     width: 100%;
-    margin-top: 40px;
+    margin-top: 30px;
     /* height: 100vh; */
 }
 #contact{
@@ -441,6 +444,9 @@ body.disabled{
     }
     .innerContent h4{
         font-size: 16px;
+    }
+    .section_container h2{
+        font-size: 40px;
     }
 }
 @media (max-width: 345px) {
