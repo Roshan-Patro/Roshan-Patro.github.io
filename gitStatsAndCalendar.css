@@ -21,8 +21,11 @@
 #gitStatCals{
     display: flex;
     justify-content: center;
+    text-align: center;
     font-size: 30px;
     margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #github_stats img{
@@ -74,5 +77,11 @@
 @media (max-width:360px){
     #gitStatCals{
         font-size: 17px;
+    }
+}
+
+@media (max-width:315px){
+    #github_stats img{
+        width: 85vw;
     }
 }
