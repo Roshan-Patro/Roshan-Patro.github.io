@@ -1,6 +1,9 @@
 #contact_top_section{
     height: 45px;
 }
+/* #contact{
+    height: 60vh;
+} */
 /* body
 {
     margin: 0;
@@ -12,9 +15,10 @@
     height: 100vh;
 } */
 #contact_iconHoler{
-    border-radius: 35px;
     padding-top: 8px;
     padding-bottom: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
 #contact_iconHoler ul
