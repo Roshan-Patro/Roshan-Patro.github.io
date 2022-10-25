@@ -1,11 +1,29 @@
+#github_stats_container{
+    display: flex;
+    justify-content: center;
+}
 #github_stats{
     display: flex;
     justify-content: center;
     gap: 20px;
+    width: fit-content;
 }
-.calendar{
-    /* height: 700px;
-    color: black; */
+/* .calendar{
+    height: 700px;
+    color: black;
     border: 1px solid black;
-    width: 100vw;
+    width: fit-content;
+} */
+/* .calendar img{
+    border: 1px solid orange;
+} */
+#gitStatCals{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#github_stats img{
+    width: 450px;
 }
