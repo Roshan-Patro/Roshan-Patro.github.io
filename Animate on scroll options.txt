@@ -35,3 +35,7 @@
             data-aos-anchor-placement="bottom-center">
         </div>
      -->
+
+     BackG Colors:
+     #242b37
+     rgb(30, 41, 59)
