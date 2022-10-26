@@ -498,3 +498,97 @@ body.disabled{
     }
 }
 
+@media (width: 375px) and (height: 667px) {
+    .banner{
+        height: 110vh;
+    }
+}
+
+@media (width: 414px) and (height: 896px) {
+    .banner{
+        height: fit-content;
+    }
+    .contentBelowNav p{
+        font-size: 17.5px;
+        line-height: 1.7;
+    }
+}
+
+@media (width: 390px) and (height: 844px) {
+    .banner{
+        height: 80vh;
+    }
+    .contentBelowNav p{
+        font-size: 16.5px;
+        line-height: 1.7;
+    }
+}
+
+@media (width: 393px) and (height: 851px) {
+    .banner{
+        height: 100vh;
+    }
+    .contentBelowNav p{
+        font-size: 16.5px;
+        line-height: 1.7;
+    }
+}
+
+@media (width: 360px) and (height: 740px) {
+    .banner{
+        height: 105vh;
+    }
+}
+
+@media (width: 412px) and (height: 915px) {
+    .banner{
+        height: 100vh;
+    }
+    .contentBelowNav p{
+        font-size: 17px;
+        line-height: 1.8;
+    }
+    #HomePageImg img{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (width: 820px) and (height: 1180px) {
+    .banner{
+        height: fit-content;
+    }
+    .contentBelowNav p{
+        font-size: 23px;
+        line-height: 1.8;
+    }
+    #HomePageImg img{
+        margin-top: 45px;
+        margin-bottom: 40px;
+        width: 250px;
+        height: 242px;
+    }
+    .contentBelowNav h3{
+        margin-top: 40px;
+        /* margin-top: 50px; */
+    }
+    .innerContent{
+        width: 65%;
+    }
+    #iconHoler ul li a{
+        width: 70px;
+        height: 70px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    #iconHoler ul li a .fa
+    {
+        line-height: calc(70px - 12px);
+        font-size: 28px;
+    }
+    .resumeButton{
+        width: 280px;
+        height: 65px;
+        font-size: 24px;
+    }
+}
