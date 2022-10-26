@@ -312,11 +312,12 @@ span{
 }
 #projects_top_section{
     height: 45px;
+    background-color: #242b37;
 }
 #projects{
-    /* background-color: #020516; */
+    background-color: #242b37;
     width: 100%;
-    margin-top: 40px;
+    padding-top: 40px;
     /* height: 100vh; */
 }
 #contact{
