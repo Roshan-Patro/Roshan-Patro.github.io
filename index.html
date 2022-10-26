@@ -3,21 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     
+    <link rel="icon" href="images/logo.jpg">
     <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-    <!-- <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/> -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     
-    <link rel="stylesheet" href="projects.css">
-    <link rel="stylesheet" href="gitStatsAndCalendar.css">
-    <link rel="stylesheet" href="skills.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/gitStatsAndCalendar.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/contact.css">
     <title>Roshan Patro</title>
-   
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
 <div class="banner">
@@ -25,7 +29,7 @@
         <div class="content">
     
           <div class="logo">
-            <img src="logo.jpg" alt="">
+            <img src="images/logo.jpg" alt="">
             <a href="#">Roshan</a>
           </div>
     
@@ -51,7 +55,7 @@
             <h3>Hi, I am Roshan Patro,</h3>
             <h4>A Java Developer</h4>
             <div id="HomePageImg">
-                <img src="logo.jpg" alt="">
+                <img src="images/logo.jpg" alt="">
             </div>
             <p>A motivated Java Developer with proficiency in potential Frontend and Backend technologies, excited for an opportunity to bring my understanding into real-life problem-solving applications and grow in my career being an integral part of a solution-oriented and technology-driven organization.</p>
                         
@@ -194,7 +198,7 @@
                 <h1 class="project_title" data-aos="fade-right">Brightline Clone</h1>
                 <div>
                     <div class="project_img_div">
-                        <img class="project_img" id="brightlineImg" src="Brightline_CoverPage.png" alt="">
+                        <img class="project_img" id="brightlineImg" src="images/Brightline_CoverPage.png" alt="">
                     </div>
                     <div>
                         <p class="project_desc" data-aos="flip-up">At Brightline, collaborative care teams provide exceptional behavioural
@@ -213,7 +217,7 @@
                 <h1 class="project_title" data-aos="fade-right">ZEE5 Clone</h1>
                 <div>
                     <div class="project_img_div">
-                        <img class="project_img" id="zee5Img" src="ZEE5_CoverPage.png" alt="">
+                        <img class="project_img" id="zee5Img" src="images/ZEE5_CoverPage.png" alt="">
                     </div>
                     <div data-aos="flip-up">
                         <p class="project_desc">ZEE5 is an Indian subscription video-on-demand and over-the-top 
@@ -239,7 +243,7 @@
     
     <div id="github_stats_container">
         <div id="github_stats">
-            <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=roshan-patro&" alt="roshan-patro" /></p>
+            <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=roshan-patro&theme=dark" alt="roshan-patro" /></p>
             <p><img src="https://github-readme-stats.vercel.app/api?username=Roshan-Patro&show_icons=true&count_private=true&theme=merko" alt="roshan-patro"/></p>
         </div>
     </div>
@@ -298,7 +302,7 @@
     }
     }).then(r => r.text())
 </script> -->
-  <script>
+  <!-- <script>
     const body = document.querySelector("body");
     const navbar = document.querySelector(".navbar");
     const menuBtn = document.querySelector(".menu-btn");
@@ -318,29 +322,38 @@
       navbar.classList.remove("show");
       menuBtn.classList.remove("hide");
     }
-    // window.onscroll = ()=>{
-    //   this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-    // }
-
-    // GitHubCalendar(".calendar", "Roshan-Patro");
-    
-    // // or enable responsive functionality:
-    // GitHubCalendar(".calendar", "Roshan-Patro", { responsive: true });
-    
-    // // Use a proxy
-    // GitHubCalendar(".calendar", "Roshan-Patro", {
-    // proxy (username) {
-    // return fetch(`https://your-proxy.com/github?user=${Roshan-Patro}`)
-    // }
-    // }).then(r => r.text())
-  </script>
-  
+  </script> -->
+  <!-- <script src="gitStatsAndCalendar.js"></script>
   <script src="navbar.js"></script>
-  <script src="projects.js"></script>
+  <script src="projects.js"></script> -->
 
 
 </body>
 </html>
+<script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    const resumeBtn = document.querySelector(".resumeButton");
+    
+    resumeBtn.onclick = ()=>{
+        window.open("https://drive.google.com/file/d/123JMbFdR-2iujFJkcevuM-G-KgqETbBF/view?usp=sharing", '_blank');
+    }
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+  </script>
+<!-- <script src="js/gitStatsAndCalendar.js"></script> -->
+  <script src="js/navbar.js"></script>
+  <script src="js/projects.js"></script>
   
 
 
