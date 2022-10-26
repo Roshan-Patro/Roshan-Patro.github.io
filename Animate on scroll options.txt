@@ -36,6 +36,8 @@
         </div>
      -->
 
-     BackG Colors:
+     BackG Colors & colors:
+     #92bcb5
      #242b37
      rgb(30, 41, 59)
+     rgb(18, 18, 18)

@@ -305,17 +305,18 @@ span{
 }
 #skills{
     /* background-color: #242b37; */
-    background-color: rgb(18, 18, 18);
+    background-color: rgb(33, 33, 33);
     width: 100%;
     padding-top: 30px;
     /* height: 100vh; */
 }
 #projects_top_section{
-    height: 45px;
+    height: 30px;
     background-color: #242b37;
 }
 #projects{
     background-color: #242b37;
+    /* background-color: rgb(33, 33, 33); */
     width: 100%;
     padding-top: 40px;
     /* height: 100vh; */

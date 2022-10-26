@@ -15,23 +15,29 @@
     gap: 20px;
     justify-content: center;
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     /* padding-left: 40px;
     padding-right: 40px; */
 }
 
 #brightline_clone{
-    border: 1px solid black;
+    border: 1.5px solid #92bcb5;
     width: 44vw;
     text-align: center;
+    color: white;
+    background-color: #26323b;
+    border-radius: 7px;
     /* display: grid;
     align-items: center; */
 }
 
 #zee5_clone{
-    border: 1px solid black;
+    border: 1.5px solid #92bcb5;
     width: 44vw;
     text-align: center;
+    color: white;
+    background-color: #26323b;
+    border-radius: 7px;
 }
 
 .project_title{

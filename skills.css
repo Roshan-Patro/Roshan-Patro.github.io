@@ -1,6 +1,7 @@
 #to_stop_for_skills{
-    height: 45px;
-    background-color: rgb(18, 18, 18);
+    height: 40px;
+    /* background-color: rgb(18, 18, 18); */
+    background-color: rgb(33, 33, 33);
 }
 #skills_div{
     display: flex;
@@ -90,7 +91,7 @@
     height: fit-content;
     justify-content: center;
     width: fit-content;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 /* #tools_div div{
     width: 100px;
