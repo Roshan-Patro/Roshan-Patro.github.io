@@ -593,3 +593,35 @@ body.disabled{
         font-size: 24px;
     }
 }
+
+@media (width: 412px) and (height: 914px){
+    .banner{
+        height: 105vh;
+    }
+    .contentBelowNav p{
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    #HomePageImg img{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        width: 230px;
+        height: 223px;
+    }
+} 
+
+@media (width: 280px) and (height: 653px){
+    .banner{
+        height: 117vh;
+    }
+    .contentBelowNav p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    #HomePageImg img{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        width: 180px;
+        height: 175px;
+    }
+}
