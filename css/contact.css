@@ -38,8 +38,8 @@
     gap: 40px;
     margin-top: 50px;
     /* margin-bottom: 25px; */
-    font-size: 17px;
-    color: #5ca49b;
+    font-size: 18px;
+    color: #448d83;
     /* border: 1px solid red; */
 }
 #contactNo{
@@ -133,7 +133,21 @@
     font-size: 17px;
     /* border: 1px solid red; */
 }
+@media (max-width:967px){
+    #contactAndEmailAndAddress{
+        gap: 30px;
+        font-size: 16px;
+    }
+}
 
+@media (max-width:890px){
+    #contactAndEmailAndAddress{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 35px;
+    }
+    
+}
 @media (max-width:676px){
     #contact_iconHoler{
         display: flex;
