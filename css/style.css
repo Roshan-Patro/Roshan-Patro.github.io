@@ -258,7 +258,7 @@
 {
     color: #e4405f;
 } */
-.resumeButton{
+.resumeButton,.resumeDownloadButton{
     width: 200px;
     padding: 13px 0;
     text-align: center;
@@ -289,7 +289,13 @@ span{
 .resumeButton:hover span{
     width: 100%;
 }
+.resumeDownloadButton:hover span{
+    width: 100%;
+}
 .resumeButton:hover{
+    border: none;
+}
+.resumeDownloadButton:hover{
     border: none;
 }
 .section_container{

@@ -7,12 +7,13 @@
     <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/> -->
     <!-- <link rel="stylesheet" href="gitcalendar.css"/> -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
     
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    
+
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/gitStatsAndCalendar.css">
     <link rel="stylesheet" href="css/skills.css">
@@ -71,7 +72,12 @@
                     </ul>
                 </div>
                 <div>
-                    <button class="resumeButton" type="button"><span></span>Resume</button>
+                    <button class="resumeButton" type="button"><span></span>View Resume</button>
+                    <!-- <button type="button"><span></span>Subscribe</button> -->
+                </div>
+                <div>
+                    <!-- <button class="resumeDownloadButton" type="button"><span></span><a href="/images/myw3schoolsimage.jpg" download>Download Resume</a></button> -->
+                    <a href="Roshan-Patro-Resume.pdf" download><button class="resumeButton" type="button"><span></span>Download Resume</button></a>
                     <!-- <button type="button"><span></span>Subscribe</button> -->
                 </div>    
             </div>
@@ -249,6 +255,43 @@
         </div>
     </div>
     
+    <!-- calendar Demo start -->
+
+    <!--Github Calender-->
+    <div id="github">
+        <!-- <div class="main_title">Github Calender</div> -->
+        <div id="calender">
+            <!-- Include the library. -->
+        <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+        </script>
+
+        <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+        <!-- <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" /> -->
+
+        <!-- Prepare a container for your calendar. -->
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>
+
+        <script>
+            GitHubCalendar(".calendar", "roshan-patro");
+
+            // or enable responsive functionality:
+            GitHubCalendar(".calendar", "roshan-patro", { responsive: true });
+
+            // Use a proxy
+            GitHubCalendar(".calendar", "roshan-patro", {
+                proxy(username) {
+                    return fetch(`https://your-proxy.com/github?user=${roshan-patro}`)
+                }
+            }).then(r => r.text())
+        </script>
+        </div>
+        
+    </div>
+
+    <!-- calendar Demo end -->
     <!-- Prepare a container for your calendar. -->
     
     <!-- <div class="calendar">

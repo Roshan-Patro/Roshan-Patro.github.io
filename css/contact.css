@@ -215,6 +215,9 @@
 }
 
 @media (max-width:360px){
+    #contactAndEmailAndAddress{
+        font-size: 14px;
+    }
     #contact_iconHoler ul li a
     {
         width: 65px;
@@ -228,6 +231,9 @@
 }
 
 @media (max-width:272px){
+    #contactAndEmailAndAddress{
+        font-size: 13px;
+    }
     #contact_iconHoler ul
     {
         row-gap: 25px;
