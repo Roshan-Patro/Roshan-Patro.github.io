@@ -62,7 +62,7 @@
             <p>A motivated Java Developer with proficiency in potential Frontend and Backend technologies, excited for an opportunity to bring my understanding into real-life problem-solving applications and grow in my career being an integral part of a solution-oriented and technology-driven organization.</p>
                         
             <div id="outerIconContainer">
-                <div id="iconHoler">
+                <div id="iconHolder">
                     <ul>
                         <!-- <li class="socialIcons"><a href="#"><i class="fa fa-facebook"></i></a></li> -->
                         <!-- <li class="socialIcons"><a href="#"><i class="fa fa-twitter"></i></a></li> -->
@@ -71,15 +71,17 @@
                         <li class="socialIcons"><a href="https://www.quora.com/profile/T-Roshan-Kumar-Patro" target="_blank"><i class="fa fa-quora"></i></a></li>
                     </ul>
                 </div>
-                <div>
-                    <button class="resumeButton" type="button"><span></span>View Resume</button>
-                    <!-- <button type="button"><span></span>Subscribe</button> -->
+                <div id="resumeButtons">
+                    <div>
+                        <button class="resumeButton" type="button"><span></span>View Resume</button>
+                        <!-- <button type="button"><span></span>Subscribe</button> -->
+                    </div>
+                    <div>
+                        <!-- <button class="resumeDownloadButton" type="button"><span></span><a href="/images/myw3schoolsimage.jpg" download>Download Resume</a></button> -->
+                        <a href="Roshan Patro_Resume.pdf" download><button class="resumeButton" type="button"><span></span>Download Resume</button></a>
+                        <!-- <button type="button"><span></span>Subscribe</button> -->
+                    </div> 
                 </div>
-                <div>
-                    <!-- <button class="resumeDownloadButton" type="button"><span></span><a href="/images/myw3schoolsimage.jpg" download>Download Resume</a></button> -->
-                    <a href="Roshan-Patro-Resume.pdf" download><button class="resumeButton" type="button"><span></span>Download Resume</button></a>
-                    <!-- <button type="button"><span></span>Subscribe</button> -->
-                </div>    
             </div>
         </div>
     </div>
@@ -395,7 +397,7 @@
     const resumeBtn = document.querySelector(".resumeButton");
     
     resumeBtn.onclick = ()=>{
-        window.open("https://drive.google.com/file/d/123JMbFdR-2iujFJkcevuM-G-KgqETbBF/view?usp=sharing", '_blank');
+        window.open("https://drive.google.com/file/d/1jZj94dHaR2WIxugOFNEKZci8yQesbhxH/view?usp=sharing", '_blank');
     }
     menuBtn.onclick = ()=>{
       navbar.classList.add("show");
