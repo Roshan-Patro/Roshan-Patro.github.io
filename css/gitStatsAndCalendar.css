@@ -1,3 +1,13 @@
+#gitStatCals{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 #github_stats_container{
     display: flex;
     justify-content: center;
@@ -9,25 +19,16 @@
     width: fit-content;
     margin-bottom: 50px;
 }
-.calendar{
-    /* height: 700px; */
+/* .calendar{
+    height: 700px;
     border: 1px solid black;
     width: 100vw;
-    /* font-size: 12px; */
-}
+    font-size: 12px;
+} */
 /* .calendar img{
     border: 1px solid orange;
 } */
-#gitStatCals{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 30px;
-    color: whitesmoke;
-    margin-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+
 
 #github_stats img{
     width: 450px;
