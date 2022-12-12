@@ -12,12 +12,21 @@
     display: flex;
     width: fit-content;
     max-width: 100vw;
-    gap: 20px;
+    gap: 35px;
     justify-content: center;
     margin-top: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 35px;
     /* padding-left: 40px;
     padding-right: 40px; */
+}
+#projectCards_3{
+    display: flex;
+    width: fit-content;
+    max-width: 100vw;
+    gap: 35px;
+    justify-content: center;
+    /* margin-top: 40px; */
+    margin-bottom: 70px;
 }
 
 #brightline_clone{
@@ -89,7 +98,7 @@
 }
 
 @media (max-width:860px){
-    #projectCards_1_2{
+    #projectCards_1_2, #projectCards_3{
         display: grid;
     }
     #brightline_clone{
