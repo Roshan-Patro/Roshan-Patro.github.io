@@ -28,3 +28,13 @@ dataMonitLiveBtn.onclick = () =>{
     window.open("https://drive.google.com/file/d/1WFmxkOi17ZPS3c4F9BNu5oRYiDiIE0Ui/view?usp=sharing", '_blank');
 }
 
+let covidProofSrcBtn = document.querySelector("#covidProof_source_code_btn");
+covidProofSrcBtn.onclick = () =>{
+    window.open("https://github.com/Ranjanji/dapper-spade-5134", '_blank');
+}
+
+let covidProofLiveBtn = document.querySelector("#covidProof_live_btn");
+covidProofLiveBtn.onclick = () =>{
+    window.open("https://drive.google.com/file/d/1LbT98fGmjkfihIQekSA-zXA9RotVXnS9/view", '_blank');
+}
+
