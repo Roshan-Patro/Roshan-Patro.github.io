@@ -12,7 +12,7 @@
     display: flex;
     width: fit-content;
     max-width: 100vw;
-    gap: 35px;
+    gap: 70px;
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 35px;
@@ -23,7 +23,7 @@
     display: flex;
     width: fit-content;
     max-width: 100vw;
-    gap: 35px;
+    gap: 70px;
     justify-content: center;
     /* margin-top: 40px; */
     margin-bottom: 70px;
@@ -31,7 +31,7 @@
 
 #brightline_clone{
     border: 1.5px solid #92bcb5;
-    width: 44vw;
+    width: 38vw;
     text-align: center;
     color: white;
     background-color: #26323b;
@@ -42,7 +42,7 @@
 
 #zee5_clone{
     border: 1.5px solid #92bcb5;
-    width: 44vw;
+    width: 38vw;
     text-align: center;
     color: white;
     background-color: #26323b;
@@ -83,18 +83,33 @@
 
 .project_buttons{
     margin-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
 }
 
 .source_code_btn, .live_btn{
     height: 35px;
-    font-size: 16px;
+    font-size: 16.5px;
     font-weight: bold;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    /* background-color: tan; */
+    /* color: rgb(236, 88, 88); */
+    border-radius: 7px;
+    transition: all ease .3s;
+    border: none;
 }
 
-.source_code_btn, .live_btn:hover{
+.source_code_btn:hover, .live_btn:hover{
     cursor: pointer;
+    /* background: rgb(71, 68, 68); */
+    background: #242b37;
+    border: 1px solid #92bcb5;
+    color: white;
+    transform: scale(1.1);
 }
 
 @media (max-width:860px){

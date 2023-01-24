@@ -5,19 +5,20 @@
 }
 #skills_div{
     display: flex;
-    gap: 30vw;
+    gap: 20vw;
     justify-content: center;
     margin-top: 30px;
     /* border: 1px solid red; */
 }
 #frontend_skills{
     /* display: grid; */
-    width: 250px;
+    width: 320px;
     /* border: 1px solid blue; */
 }
 #frontend_div1_container{
     display: flex;
     justify-content: center;
+    font-size: larger;
 }
 #frontend_div1{
     color: #92bcb5;
@@ -40,12 +41,13 @@
 
 #backend_skills{
     /* display: grid; */
-    width: 250px;
+    width: 320px;
     /* border: 1px solid orangered; */
 }
 #backend_div1_container{
     display: flex;
     justify-content: center;
+    font-size: larger;
 }
 #backend_div1{
     color: #92bcb5;
@@ -73,8 +75,8 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-    width: 45px;
-    height: 45px;
+    width: 57px;
+    height: 57px;
     border-radius: 3px;
 }
 .outer_icon_div img{
@@ -111,23 +113,24 @@
     display: grid;
     text-align: center;
     /* border: 1px solid red; */
-    width: 90px;
-    height: 90px;
+    width: 110px;
+    height: 110px;
     background-color: #92bcb5;
     padding-top: 8px;
     border-radius: 5px;
 }
 .individual_tool img{
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
 }
 
-@media (max-width:840px){
+@media (max-width:847px){
     #skills_div{
-        gap: 22vw;
+        display: grid;
     }
 }
-@media (max-width:755px){
+/* @media (max-width:755px){
     #skills_div{
         gap: 10vw;
     }
@@ -136,13 +139,13 @@
     #skills_div{
         gap: 5vw;
     }
-}
+} */
 @media (max-width:590px){
     #skills_div{
         display: grid;
     }
 }
-@media (max-width:372px){
+@media (max-width:723px){
     #tools_div_container{
         display: flex;
         justify-content: center;
@@ -153,7 +156,7 @@
         align-items: center;
     }
 }
-@media (max-width:285px){
+@media (max-width:350px){
     #frontend_skills{
         width: 210px;
     }

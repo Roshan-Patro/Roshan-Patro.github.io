@@ -14,6 +14,7 @@
     background-position: center;
     transition: all ease 2s;
 }
+
 .navbar{
     position: fixed;
     width: 100%;
@@ -374,7 +375,7 @@ span{
     padding: 0 30px;
 }
 }
-@media (max-width: 868px) {
+@media (max-width: 877px) {
 .banner{
     height: 125vh;
 }
