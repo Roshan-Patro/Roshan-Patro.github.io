@@ -1,3 +1,13 @@
+let onlineShoppingSrcBtn = document.querySelector("#onlineshopping_source_code_btn");
+onlineShoppingSrcBtn.onclick = () =>{
+    window.open("https://github.com/Roshan-Patro/Online-Shopping-Application", '_blank');
+}
+
+let onlineShoppingLiveBtn = document.querySelector("#onlineshopping_live_btn");
+onlineShoppingLiveBtn.onclick = () =>{
+    window.open("https://drive.google.com/file/d/1st7vgtvGPTkjZBKnZiIhJFDaKYm_Hdw6/view", '_blank');
+}
+
 let brtlnSrcBtn = document.querySelector("#brightline_source_code_btn");
 brtlnSrcBtn.onclick = () =>{
     window.open("https://github.com/Roshan-Patro/Brightline-Clone", '_blank');
