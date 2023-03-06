@@ -9,13 +9,14 @@ html {
 }
 .banner{
     width: 100%;
-    /* height: 100vh; */
+    /* height: fit-content; */
     min-height: 100vh;
     /* background-color: rgb(97, 80, 80); */
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(20, 20, 20, 0.75)),url(homeBackground.jpg);
     background-size: cover;
     background-position: center;
     transition: all ease 2s;
+    border: 1px solid red;
 }
 
 .navbar{
@@ -29,17 +30,20 @@ html {
     max-width: 1250px;
     margin: auto;
     padding: 0 30px;
-}
-.navbar.sticky{
-    background: #1b1b1b;
-    padding: 10px 0;
-    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
-    /* Check whether will remain or not */
-}
-.navbar .content{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.navbar .logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar .logo>img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
 }
 .navbar .logo a{
     color: #fff;
@@ -55,30 +59,13 @@ html {
 .navbar .menu-list{
     display: inline-flex;
 }
-.menu-list li{
+.navbar .menu-list li{
     list-style: none;
     position: relative;
     margin: 0 20px;
     display: inline-block;
 }
-.active_nav{
-        background-color: #92bcb5;
-        box-shadow: 0 0 .4rem rgba(0, 0, 0, .6);
-}
-
-/* I added (from)*/
-.logo{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.logo>img{
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-}
-.menu-list li::after{
+.navbar .menu-list li::after{
     content: '';
     height: 3px;
     width: 0;
@@ -89,23 +76,21 @@ html {
     bottom: -10px;
     transition: 0.5s;
 }
-.menu-list li:hover:after{
+.navbar .menu-list li:hover:after{
     width: 100%;
 }
-/* I added (till)*/
-
-.menu-list li a{
+.navbar .menu-list li a{
     color: #fff;
     font-size: 17.5px;
     font-weight: 500;
-    /* margin-left: 25px; */
     text-decoration: none;
     transition: all 0.3s ease;
     text-transform: uppercase;
 }
-/* .menu-list li a:hover{
-    color: #009688;
-} */
+.active_nav{
+        background-color: #92bcb5;
+        box-shadow: 0 0 .4rem rgba(0, 0, 0, .6);
+}
 .icon{
     color: #fff;
     font-size: 20px;
@@ -152,6 +137,7 @@ html {
 #resumeButtons{
     display: flex;
     gap: 15px;
+    border: 1px solid blue;
 }
 .innerContent{
     width: 60%;
