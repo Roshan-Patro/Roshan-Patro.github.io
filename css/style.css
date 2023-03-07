@@ -16,7 +16,8 @@ html {
     background-size: cover;
     background-position: center;
     transition: all ease 2s;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    /* position: absolute; */
 }
 
 .navbar{
@@ -106,11 +107,7 @@ html {
     color: white;
     width: 100%;
     text-align: center;
-    /* margin: auto; */
-    /* margin-top: 10px; */
     position: absolute;
-    /* top: 50%; */
-    /* transform: translateY(-50%); */
     transform: translateY(0%);
     display: flex;
     justify-content: center;
@@ -137,7 +134,7 @@ html {
 #resumeButtons{
     display: flex;
     gap: 15px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .innerContent{
     width: 60%;
