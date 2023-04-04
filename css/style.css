@@ -29,6 +29,7 @@ html {
     background: linear-gradient(rgba(0,0,0,0.75), rgba(20, 20, 20, 0.75)),url("homeBackground.jpg") no-repeat center;
     background-size: cover;
     /* background-position: center; */
+    background-attachment: fixed;
     transition: all ease 2s;
     /* border: 1px solid red; */
     /* position: absolute; */
