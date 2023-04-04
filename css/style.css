@@ -7,12 +7,25 @@
 html {
     scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #5c5b5b;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2c2b2b;
+  }
 .banner{
     width: 100%;
     /* height: fit-content; */
     min-height: 100vh;
     /* background-color: rgb(97, 80, 80); */
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(20, 20, 20, 0.75)),url(homeBackground.jpg);
+    /* background-image: linear-gradient(rgba(0,0,0,0.75), rgba(20, 20, 20, 0.75)),url(homeBackground.jpg); */
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(20, 20, 20, 0.75)),url("homeBackground.jpg") no-repeat center;
     background-size: cover;
     background-position: center;
     transition: all ease 2s;
@@ -27,7 +40,7 @@ html {
     padding: 10px 0;
     transition: all 0.3s ease;
 }
-.content{
+.navContent{
     max-width: 1250px;
     margin: auto;
     padding: 0 30px;
@@ -327,7 +340,7 @@ span{
     /* height: 100vh; */
 }
 @media (max-width: 1230px) {
-.content{
+.navContent{
     padding: 0 60px;
 }
 }
@@ -335,7 +348,7 @@ span{
 .banner{
     height: 130vh;
 }
-.content{
+.navContent{
     padding: 0 40px;
 }
 #outerIconContainer{
@@ -357,7 +370,7 @@ span{
 }
 }
 @media (max-width: 900px) {
-.content{
+.navContent{
     padding: 0 30px;
 }
 }
