@@ -23,12 +23,13 @@ html {
     width: 100%;
     /* height: fit-content; */
     /* min-height: 100vh; */
+    /* min-height: fit-content; */
     height: 100vh;
     /* background-color: rgb(97, 80, 80); */
     /* background-image: linear-gradient(rgba(0,0,0,0.75), rgba(20, 20, 20, 0.75)),url(homeBackground.jpg); */
     background: linear-gradient(rgba(0,0,0,0.75), rgba(20, 20, 20, 0.75)),url("homeBackground.jpg") no-repeat center;
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     background-attachment: fixed;
     transition: all ease 2s;
     /* border: 1px solid red; */
