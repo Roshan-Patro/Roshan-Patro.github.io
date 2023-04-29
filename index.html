@@ -10,16 +10,37 @@
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/calendar.css">
-    <link rel="stylesheet" href="css/gitStatsAndCalendar.css">
+    <!-- <link rel="stylesheet" href="css/calendar.css"> -->
+    <!-- <link rel="stylesheet" href="css/gitStatsAndCalendar.css"> -->
 
+    <!-- <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/> -->
+
+    <!-- To get the hamburger icon and the cross icon on the expanded list -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- For online-presence icons in home page, github and video icons in project section and social media icons in the contact section -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    
+
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
     <title>Roshan's Portfolio</title>
+
+    <style>
+        .gitCalendarTitle{
+    text-align: center;
+    margin-top: 2%;
+  }
+ .git_data{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-around;
+  }
+  .gitContribution,.gitStats{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+  }
+    </style>
 </head>
 <body>
 <div class="banner">
@@ -279,29 +300,6 @@
                 </div>
             </div>
 
-            <div id="brightline_clone">
-                <h1 class="project_title" data-aos="fade-right">Brightline Clone</h1>
-                <div>
-                    <div class="project_img_div">
-                        <img class="project_img" id="brightlineImg" src="images/Brightline_CoverPage.png" alt="">
-                    </div>
-                    <div>
-                        <p class="project_desc" data-aos="flip-up">At Brightline, collaborative care teams provide exceptional behavioural
-                            and mental health care designed specifically for kids and their families.</p>
-                        <h4 class="tech_stack" data-aos="flip-up">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
-                        <p class="members_days" data-aos="flip-up">A collaborative project developed by a 5-member team within 4 days.</p>
-                    </div>
-                    <div class="project_buttons">
-                        <button class="source_code_btn" id="brightline_source_code_btn">Source Code <i class="fa fa-github"></i></button>
-                        <button class="live_btn" id="brightline_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
-                    </div>
-                </div>
-            </div>
-        
-            
-        </div>
-
-        <div id="projectCards_5">
             <div id="zee5_clone">
                 <h1 class="project_title" data-aos="fade-right">ZEE5 Clone</h1>
                 <div>
@@ -321,12 +319,55 @@
                     </div>
                 </div>
             </div>
+
+            <!-- <div id="brightline_clone">
+                <h1 class="project_title" data-aos="fade-right">Brightline Clone</h1>
+                <div>
+                    <div class="project_img_div">
+                        <img class="project_img" id="brightlineImg" src="images/Brightline_CoverPage.png" alt="">
+                    </div>
+                    <div>
+                        <p class="project_desc" data-aos="flip-up">At Brightline, collaborative care teams provide exceptional behavioural
+                            and mental health care designed specifically for kids and their families.</p>
+                        <h4 class="tech_stack" data-aos="flip-up">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
+                        <p class="members_days" data-aos="flip-up">A collaborative project developed by a 5-member team within 4 days.</p>
+                    </div>
+                    <div class="project_buttons">
+                        <button class="source_code_btn" id="brightline_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="brightline_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                    </div>
+                </div>
+            </div> -->
+        
+            
+        </div>
+
+        <div id="projectCards_5">
+            <!-- <div id="zee5_clone">
+                <h1 class="project_title" data-aos="fade-right">ZEE5 Clone</h1>
+                <div>
+                    <div class="project_img_div">
+                        <img class="project_img" id="zee5Img" src="images/ZEE5_CoverPage.png" alt="">
+                    </div>
+                    <div data-aos="flip-up">
+                        <p class="project_desc">ZEE5 is an Indian subscription video-on-demand and over-the-top 
+                            streaming service, run by Zee Entertainment Enterprises.</p>
+                        <h4 class="tech_stack">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
+                        <p class="members_days">An individual project developed within 4 days.</p>
+                    </div>
+        
+                    <div class="project_buttons">
+                        <button class="source_code_btn" id="zee5_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="zee5_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                    </div>
+                </div>
+            </div> -->
         </div>
     </div>
 
-    <div id="gitStatCals">
+    <!-- <div id="gitStatCals">
         <h3>My GitHub Statistics & Calender</h3>
-    </div>
+    </div> -->
     
     <!-- Stats and calendar -->
     
@@ -337,11 +378,33 @@
         </div>
     </div> -->
     
-    <section id="github-calender-section">
+
+    <H1 class="gitCalendarTitle">GitHub Calendar</H1>
+    <div class="calendar">
+    </div>
+    <div class="git_data">
+        <div class="gitContribution">
+            <h2>GitHub Contribution</h2>
+            <a href="https://github.com/Roshan-Patro">
+                <img class="gitContriImg"
+                    src="https://github-readme-streak-stats.herokuapp.com/?user=Roshan-Patro" />
+            </a>
+        </div>
+        <div class="gitStats">
+            <h2>GitHub Stats</h2>
+            <a href="https://github.com/Roshan-Patro">
+                <img class="gitContriImg" src="https://github-readme-stats.vercel.app/api?username=Roshan-Patro" />
+            </a>
+        </div>
+    </div>
+
+    <!-- <section id="github-calender-section">
+        <div class="calendar">
+            Loading stuff Loading the data just for you.
+        </div>
+
         <div id="github-stats">
             <br>
-            <div class="calendar" style="width:100%; margin-bottom: 50px;">    
-            </div>
            
             <div id="github_stats_container">
                 <div id="github_stats">
@@ -350,7 +413,7 @@
                 </div>
             </div>
          </div>
-    </section>
+    </section> -->
 </section>
 
 
@@ -394,7 +457,7 @@
 </html>
 <script src="js/navbar.js"></script>
 <script src="js/projects.js"></script>
-<script src="js/calendar.js"></script>
+<!-- <script src="js/calendar.js"></script> -->
 <script>
     const body = document.querySelector("body");
     const navbar = document.querySelector(".navbar");
@@ -419,14 +482,15 @@
       navbar.classList.remove("show");
       menuBtn.classList.remove("hide");
     }
-
-    GitHubCalendar(".calendar", "roshan-patro");
-    GitHubCalendar(".calendar", "roshan-patro", { responsive: true });
   </script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+<script>
+    GitHubCalendar(".calendar", "Roshan-Patro");
+    GitHubCalendar(".calendar", "Roshan-Patro", { responsive: true });
+</script>
   
-<!-- <script>
-    
-</script> -->
+  
   
 
 

@@ -8,15 +8,19 @@ onlineShoppingLiveBtn.onclick = () =>{
     window.open("https://drive.google.com/file/d/1st7vgtvGPTkjZBKnZiIhJFDaKYm_Hdw6/view", '_blank');
 }
 
-let brtlnSrcBtn = document.querySelector("#brightline_source_code_btn");
-brtlnSrcBtn.onclick = () =>{
-    window.open("https://github.com/Roshan-Patro/Brightline-Clone", '_blank');
-}
+// =====================================================================================================
+// ******************************* Removed this project **********************************
 
-let brtlnLiveBtn = document.querySelector("#brightline_live_btn");
-brtlnLiveBtn.onclick = () =>{
-    window.open("https://peppy-valkyrie-ddd5ab.netlify.app/", '_blank');
-}
+// let brtlnSrcBtn = document.querySelector("#brightline_source_code_btn");
+// brtlnSrcBtn.onclick = () =>{
+//     window.open("https://github.com/Roshan-Patro/Brightline-Clone", '_blank');
+// }
+
+// let brtlnLiveBtn = document.querySelector("#brightline_live_btn");
+// brtlnLiveBtn.onclick = () =>{
+//     window.open("https://peppy-valkyrie-ddd5ab.netlify.app/", '_blank');
+// }
+// =====================================================================================================
 
 let zee5SrcBtn = document.querySelector("#zee5_source_code_btn");
 zee5SrcBtn.onclick = () =>{
