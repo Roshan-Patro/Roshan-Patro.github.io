@@ -1,0 +1,89 @@
+#gitStatCals{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#github_stats_container{
+    display: flex;
+    justify-content: center;
+}
+#github_stats{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+/* .calendar{
+    height: 700px;
+    border: 1px solid black;
+    width: 100vw;
+    font-size: 12px;
+} */
+/* .calendar img{
+    border: 1px solid orange;
+} */
+
+
+#github_stats img{
+    width: 450px;
+}
+
+@media (max-width:967px){
+    #github_stats{
+        display: grid;
+    }
+    #github_stats img{
+        width: 550px;
+    }
+}
+
+@media (max-width:615px){
+    #github_stats img{
+        width: 450px;
+    }
+    #gitStatCals{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:520px){
+    #github_stats img{
+        width: 80vw;
+    }
+    #gitStatCals{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:434px){
+    #github_stats img{
+        width: 80vw;
+    }
+    #gitStatCals{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:415px){
+    #gitStatCals{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:360px){
+    #gitStatCals{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:315px){
+    #github_stats img{
+        width: 85vw;
+    }
+}
