@@ -112,7 +112,7 @@
     }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1100px) {
     body.disabled{
         overflow: hidden;
     }

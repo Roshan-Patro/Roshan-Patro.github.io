@@ -4,7 +4,6 @@
     align-items: center;
     background: linear-gradient(rgba(0,0,0,0.75), rgba(20, 20, 20, 0.75)), url("homeBackground.jpg") no-repeat center;
     height: 100vh;
-    /* min-height: 500px; */
     background-size: cover;
     background-attachment: fixed;
     color: white;
@@ -13,6 +12,18 @@
     /* position: absolute; */ /* This line makes the next section start from the very top of the web page. */
     transform: translateY(0%);
     /* font-family: "Ubuntu", sans-serif; */
+}
+
+@media (max-width: 730px){
+    #home{
+        min-height: 750px;
+    }
+}
+
+@media (min-width: 731px){
+    #home{
+        min-height: 650px;
+    }
 }
 
 #HomePageImg{
@@ -44,7 +55,6 @@
 
 .innerContent{
     width: 60%;
-    /* margin-top: 80px; */
 }
 
 #home h3{
@@ -180,9 +190,6 @@ span{
     #outerIconContainer{
         display: grid;
         grid-template-rows: repeat(2,1fr);
-        /* justify-content: center; */
-        /* text-align: center; */
-        /* column-gap: 10px; */
         row-gap: 25px;
         margin-top: 25px;
     }
@@ -202,19 +209,7 @@ span{
     }
 }
 
-@media (max-height: 800px) {
-    #home{
-        min-height: 750px;
-    }
-}
-
 @media (max-width: 730px) {
-    /* .innerContent h3{
-        font-size: 35px;
-    } */
-    .innerContent h4{
-        font-size: 25px;
-    }
     #outerIconContainer{
         margin-top: -10px;
     }
@@ -355,7 +350,7 @@ span{
 
 @media (max-width: 294px) {
     #home h3{
-        font-size: 21px;
+        font-size: 22px;
     }
     #home h4{
         font-size: 18px;
@@ -365,35 +360,30 @@ span{
 
 @media (max-width: 306px) {
     #HomePageImg img{
-        width: 170px;
-        height: 165px;
+        width: 200px;
+        height: 195px;
     }
-}
 
-@media (max-width: 278px) {
-    #iconHoler ul li a{
-        width: 42px;
-        height: 42px;
-    }
-    #iconHoler ul li a .fa{
-        line-height: calc(42px - 12px);
-    }
-}
-
-@media (max-width: 265px) {
-    #HomePageImg img{
-        width: 160px;
-        height: 155px;
-    }
     #iconHolder{
         display: flex;
-        width: 80%;
     }
+
     #iconHolder ul{
-        gap: 10px;
+        gap: 1px;
     }
+
+    #iconHoler ul li a{
+        width: 30px;
+        height: 30px;
+    }
+
+    #iconHoler ul li a .fa{
+        line-height: calc(30px - 12px);
+    }
+
     .resumeButton{
-        width: 95%;
+        width: 92%;
     }
 }
+
 
