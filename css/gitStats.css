@@ -34,6 +34,16 @@
     width: 450px;
 }
 
+#top-langs-used{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#top-langs-used p{
+    margin-bottom: 50px;
+}
+
 @media (max-width:967px){
     #github_stats{
         display: grid;

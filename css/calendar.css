@@ -26,11 +26,11 @@
       fill: var(--color-calendar-graph-day-L4-bg);
   }
   
-  .calendar .width-full > .float-left {
+  .react-activity-calendar .width-full > .float-left {
       display: none;
   }
   
-  .calendar {
+  .react-activity-calendar {
       font-family: Helvetica, arial;
       border: 1px solid #DDDDDD;
       border-radius: 3px;
@@ -107,7 +107,7 @@
       color: #333;
   }
   
-  .calendar img.spinner {
+  .react-activity-calendar img.spinner { /* earlier it was .calendar in place of .react-activity-calendar */
       width: 70px;
       margin-top: 50px;
       min-height: 70px;

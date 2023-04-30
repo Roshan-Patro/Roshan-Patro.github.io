@@ -46,12 +46,12 @@
             <div class="icon cancel-btn">
               <i class="fas fa-times"></i>
             </div>
-            <li><a href="#">Home</a></li>
-            <li><a href="#space_before_ABOUT">About</a></li>
-            <li><a href="#space_before_SKILLS">Skills</a></li>
-            <li><a href="#space_before_PROJECTS">Projects</a></li>
-            <li><a href="#space_before_CONTACT">Contact</a></li>
-            <li id="resumeBtnOnNavbar"><a href="My_Resume/T Roshan Kumar Patro_Resume.pdf" download>Resume <i class='far fa-arrow-alt-circle-down'></i></a></li>
+            <li class="nav-link home"><a href="#">Home</a></li>
+            <li class="nav-link about"><a href="#space_before_ABOUT">About</a></li>
+            <li class="nav-link skills"><a href="#space_before_SKILLS">Skills</a></li>
+            <li class="nav-link projects"><a href="#space_before_PROJECTS">Projects</a></li>
+            <li class="nav-link contact"><a href="#space_before_CONTACT">Contact</a></li>
+            <li class="nav-link resume" id="resumeBtnOnNavbar"><a id="resume-link-1" href="My_Resume/T Roshan Kumar Patro_Resume.pdf" download>Resume <i class='far fa-arrow-alt-circle-down'></i></a></li>
           </ul>
           
           <div class="icon menu-btn">
@@ -63,10 +63,10 @@
     <!-- Home -->
     <section id="home">
         <div class="innerContent" id="home_innercontent">
-            <h3>Hi, I am Roshan Patro,</h3>
+            <h3 id="user-detail-name">Hi, I am Roshan Patro,</h3>
             <h4>a Java Developer</h4>
             <div id="HomePageImg">
-                <img src="images/Profile_Pic.jpg" alt="">
+                <img class="home-img" src="images/Profile_Pic.jpg" alt="">
             </div>
                         
             <div id="outerIconContainer">
@@ -79,10 +79,10 @@
                 </div>
                 <div id="resumeButtons">
                     <div>
-                        <button class="resumeButton" type="button"><span></span>View Resume</button>
+                        <button class="resumeButton" id="viewResumeButton" type="button"><span></span>View Resume</button>
                     </div>
                     <div>
-                        <a href="My_Resume/T Roshan Kumar Patro_Resume.pdf" download><button class="resumeButton" type="button"><span></span>Download Resume</button></a>
+                        <a id="resume-link-2" href="My_Resume/T Roshan Kumar Patro_Resume.pdf" download><button class="resumeButton" type="button"><span></span>Download Resume</button></a>
                     </div> 
                 </div>
             </div>
@@ -101,7 +101,7 @@
             </div>
             <div id="about_content_text">
                 <div id="about_content_text_heading"><h1>I am Roshan, a Java Developer.<span class="typing_role"></span></h1></div>
-                <p id="about_content_text_body">A motivated Java Backend Developer with proficiency in potential Frontend (HTML,
+                <p id="user-detail-intro">A motivated Java Backend Developer with proficiency in potential Frontend (HTML,
                     CSS, JavaScript) and Backend (Java, SQL, JDBC, Hibernate, Spring, Spring Boot) technologies, excited
                     for an opportunity to bring my understanding into real-life problem-solving applications
                     and grow in my career by being an integral part of a solution-oriented and technology-
@@ -123,23 +123,23 @@
                         </div>
                     </div>
                     <div id="frontend_div2">
-                        <div class="tech_cards">
+                        <div class="skills-card">
                             <div class="outer_icon_div">
-                                <img src="Skills_Icons/icons8-html-5-48.png" alt="">
+                                <img class="skills-card-img" src="Skills_Icons/icons8-html-5-48.png" alt="">
                             </div>
-                            <h3>HTML5</h3>
+                            <h3 class="skills-card-name">HTML5</h3>
                         </div>
-                        <div class="tech_cards">
+                        <div class="skills-card">
                             <div class="outer_icon_div">
-                                <img src="Skills_Icons/icons8-css3-48.png" alt="">
+                                <img class="skills-card-img" src="Skills_Icons/icons8-css3-48.png" alt="">
                             </div>
-                            <h3>CSS3</h3>
+                            <h3 class="skills-card-name">CSS3</h3>
                         </div>
-                        <div class="tech_cards">
+                        <div class="skills-card">
                             <div class="outer_icon_div">
-                                <img src="Skills_Icons/icons8-javascript-48.png" alt="">
+                                <img class="skills-card-img" src="Skills_Icons/icons8-javascript-48.png" alt="">
                             </div>
-                            <h3>JavaScript</h3>
+                            <h3 class="skills-card-name">JavaScript</h3>
                         </div>
                     </div>
                 </div>
@@ -151,29 +151,29 @@
                     </div>
                     
                     <div id="backend_div2">
-                        <div class="tech_cards">
+                        <div class="skills-card">
                             <div class="outer_icon_div">
-                                <img src="Skills_Icons/icons8-java-48.png" alt="">
+                                <img class="skills-card-img" src="Skills_Icons/icons8-java-48.png" alt="">
                             </div>
-                            <h3>Java</h3>
+                            <h3 class="skills-card-name">Java</h3>
                         </div>
-                        <div class="tech_cards">
+                        <div class="skills-card">
                             <div class="outer_icon_div">
-                                <img src="Skills_Icons/icons8-spring-logo-48.png" alt="">
+                                <img class="skills-card-img" src="Skills_Icons/icons8-spring-logo-48.png" alt="">
                             </div>
-                            <h3>Spring</h3>
+                            <h3 class="skills-card-name">Spring</h3>
                         </div>
-                        <div class="tech_cards">
+                        <div class="skills-card">
                             <div class="outer_icon_div">
-                                <img src="Skills_Icons/hibernate_logo_whitebkg_stacked_256px.png" alt="">
+                                <img class="skills-card-img" src="Skills_Icons/hibernate_logo_whitebkg_stacked_256px.png" alt="">
                             </div>
-                            <h3>Hibernate</h3>
+                            <h3 class="skills-card-name">Hibernate</h3>
                         </div>
-                        <div class="tech_cards">
+                        <div class="skills-card">
                             <div class="outer_icon_div">
-                                <img src="Skills_Icons/icons8-mysql-logo-48 (1).png" alt="">
+                                <img class="skills-card-img" src="Skills_Icons/icons8-mysql-logo-48 (1).png" alt="">
                             </div>
-                            <h3>MySQL</h3>
+                            <h3 class="skills-card-name">MySQL</h3>
                         </div>
                     </div>
                 </div>
@@ -227,48 +227,48 @@
             <h2>PROJECTS</h2>
     
             <div id="projectCards_1_2">
-                <div id="OnlineShopping_App">
-                    <h1 class="project_title" data-aos="fade-right">Online Shopping Application</h1>
+                <div class="project-card" id="OnlineShopping_App">
+                    <h1 class="project-title" data-aos="fade-right">Online Shopping Application</h1>
                     <div>
                         <div class="project_img_div">
                             <img class="project_img" id="onlineShoppingAppImg" src="images/Get_&_Go_Bazar...!!.jpeg" alt="">
                         </div>
                         <div data-aos="flip-up">
-                            <p class="project_desc">A backend system for an online shopping application with APIs 
+                            <p class="project-description">A backend system for an online shopping application with APIs 
                                 for all relevant functionalities including user and admin registration, 
                                 log in and CRUD functionalities for both admin and customer as per user eligibility. 
                             </p>
-                            <h4 class="tech_stack">Tech Stack: Java | Spring Framework | Spring Boot | Spring Data JPA | SQL</h4>
+                            <h4 class="project-tech-stack">Tech Stack: Java | Spring Framework | Spring Boot | Spring Data JPA | SQL</h4>
                             <p class="members_days">A collaborative project developed by a 5-member team within 4 days and won 
                                 the second prize in the final presentation.
                                 </p>
                         </div>
             
                         <div class="project_buttons">
-                            <button class="source_code_btn" id="onlineshopping_source_code_btn">Source Code <i class="fa fa-github"></i></button>
-                            <button class="live_btn" id="onlineshopping_live_btn">Presentation Video <i class="fa fa-play-circle-o"></i></button>
+                            <button class="project-github-link" id="onlineshopping_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                            <button class="project-deployed-link" id="onlineshopping_live_btn">Presentation Video <i class="fa fa-play-circle-o"></i></button>
                         </div>
                     </div>
                 </div>
     
-                <div id="covid19_vaccination_app">
-                    <h1 class="project_title" data-aos="fade-right">Covid 19 Vaccination System</h1>
+                <div class="project-card" id="covid19_vaccination_app">
+                    <h1 class="project-title" data-aos="fade-right">Covid 19 Vaccination System</h1>
                     <div>
                         <div class="project_img_div">
                             <img class="project_img" id="covid19VaccinationImg" src="images/covidProof.png" alt="">
                         </div>
                         <div data-aos="flip-up">
-                            <p class="project_desc">CovidProof is a Covid 19 vaccination system that can provide services 
+                            <p class="project-description">CovidProof is a Covid 19 vaccination system that can provide services 
                                 to admins and applicants to fetch and see details along with to perform relevant operations 
                                 on the data as per the accessibility. 
                             </p>
-                            <h4 class="tech_stack">Java | SQL | Spring Boot | JPA + Hibernate</h4>
+                            <h4 class="project-tech-stack">Java | SQL | Spring Boot | JPA + Hibernate</h4>
                             <p class="members_days">A collaborative project developed by a 4-member team within 5 days.</p>
                         </div>
             
                         <div class="project_buttons">
-                            <button class="source_code_btn" id="covidProof_source_code_btn">Source Code <i class="fa fa-github"></i></button>
-                            <button class="live_btn" id="covidProof_live_btn">Presentation Video <i class="fa fa-play-circle-o"></i></button>
+                            <button class="project-github-link" id="covidProof_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                            <button class="project-deployed-link" id="covidProof_live_btn">Presentation Video <i class="fa fa-play-circle-o"></i></button>
                         </div>
                     </div>
                 </div>
@@ -276,44 +276,44 @@
     
             <div id="projectCards_3_4">
     
-                <div id="datamonit_topdog_app">
-                    <h1 class="project_title" data-aos="fade-right">DataMonit TOPDOG</h1>
+                <div class="project-card" id="datamonit_topdog_app">
+                    <h1 class="project-title" data-aos="fade-right">DataMonit TOPDOG</h1>
                     <div>
                         <div class="project_img_div">
                             <img class="project_img" id="datamonitTopdogImg" src="images/DataMonit_TOPDOG_Logo.png" alt="">
                         </div>
                         <div data-aos="flip-up">
-                            <p class="project_desc">DataMonit TOPDOG is an efficient course monitoring system that can 
+                            <p class="project-description">DataMonit TOPDOG is an efficient course monitoring system that can 
                                 help admins (Faculty Heads) and users (Faculties) monitor all the data related 
                                 to courses, batches, and their students along with day-wise activities. 
                             </p>
-                            <h4 class="tech_stack">Tech Stack: Java | SQL | JDBC</h4>
+                            <h4 class="project-tech-stack">Tech Stack: Java | SQL | JDBC</h4>
                             <p class="members_days">An individual console-based project developed within 4 days.</p>
                         </div>
             
                         <div class="project_buttons">
-                            <button class="source_code_btn" id="dataMonit_source_code_btn">Source Code <i class="fa fa-github"></i></button>
-                            <button class="live_btn" id="dataMonit_live_btn">Presentation Video <i class="fa fa-play-circle-o"></i></button>
+                            <button class="project-github-link" id="dataMonit_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                            <button class="project-deployed-link" id="dataMonit_live_btn">Presentation Video <i class="fa fa-play-circle-o"></i></button>
                         </div>
                     </div>
                 </div>
     
-                <div id="zee5_clone">
-                    <h1 class="project_title" data-aos="fade-right">ZEE5 Clone</h1>
+                <div class="project-card" id="zee5_clone">
+                    <h1 class="project-title" data-aos="fade-right">ZEE5 Clone</h1>
                     <div>
                         <div class="project_img_div">
                             <img class="project_img" id="zee5Img" src="images/ZEE5_CoverPage.png" alt="">
                         </div>
                         <div data-aos="flip-up">
-                            <p class="project_desc">ZEE5 is an Indian subscription video-on-demand and over-the-top 
+                            <p class="project-description">ZEE5 is an Indian subscription video-on-demand and over-the-top 
                                 streaming service, run by Zee Entertainment Enterprises.</p>
-                            <h4 class="tech_stack">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
+                            <h4 class="project-tech-stack">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
                             <p class="members_days">An individual project developed within 4 days.</p>
                         </div>
             
                         <div class="project_buttons">
-                            <button class="source_code_btn" id="zee5_source_code_btn">Source Code <i class="fa fa-github"></i></button>
-                            <button class="live_btn" id="zee5_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                            <button class="project-github-link" id="zee5_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                            <button class="project-deployed-link" id="zee5_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
                         </div>
                     </div>
                 </div>
@@ -325,14 +325,14 @@
                             <img class="project_img" id="brightlineImg" src="images/Brightline_CoverPage.png" alt="">
                         </div>
                         <div>
-                            <p class="project_desc" data-aos="flip-up">At Brightline, collaborative care teams provide exceptional behavioural
+                            <p class="project-description" data-aos="flip-up">At Brightline, collaborative care teams provide exceptional behavioural
                                 and mental health care designed specifically for kids and their families.</p>
-                            <h4 class="tech_stack" data-aos="flip-up">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
+                            <h4 class="project-tech-stack" data-aos="flip-up">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
                             <p class="members_days" data-aos="flip-up">A collaborative project developed by a 5-member team within 4 days.</p>
                         </div>
                         <div class="project_buttons">
-                            <button class="source_code_btn" id="brightline_source_code_btn">Source Code <i class="fa fa-github"></i></button>
-                            <button class="live_btn" id="brightline_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                            <button class="project-github-link" id="brightline_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                            <button class="project-deployed-link" id="brightline_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
                         </div>
                     </div>
                 </div> -->
@@ -348,15 +348,15 @@
                             <img class="project_img" id="zee5Img" src="images/ZEE5_CoverPage.png" alt="">
                         </div>
                         <div data-aos="flip-up">
-                            <p class="project_desc">ZEE5 is an Indian subscription video-on-demand and over-the-top 
+                            <p class="project-description">ZEE5 is an Indian subscription video-on-demand and over-the-top 
                                 streaming service, run by Zee Entertainment Enterprises.</p>
-                            <h4 class="tech_stack">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
+                            <h4 class="project-tech-stack">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
                             <p class="members_days">An individual project developed within 4 days.</p>
                         </div>
             
                         <div class="project_buttons">
-                            <button class="source_code_btn" id="zee5_source_code_btn">Source Code <i class="fa fa-github"></i></button>
-                            <button class="live_btn" id="zee5_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                            <button class="project-github-link" id="zee5_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                            <button class="project-deployed-link" id="zee5_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
                         </div>
                     </div>
                 </div> -->
@@ -370,16 +370,20 @@
         <section id="github-calender-section">
             <div id="github-stats">
                 <br>
-                <div class="calendar" style="width:100%; margin-bottom: 50px;">    
+                <div class="react-activity-calendar" style="width:100%; margin-bottom: 50px;">
                 </div>
                
                 <div id="github_stats_container">
                     <div id="github_stats">
-                        <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=roshan-patro&theme=dark" alt="roshan-patro" /></p>
-                        <p><img src="https://github-readme-stats.vercel.app/api?username=Roshan-Patro&show_icons=true&count_private=true&theme=merko" alt="roshan-patro"/></p>
+                        <p id="github-streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com/?user=roshan-patro&theme=dark" alt="roshan-patro" /></p>
+                        <p id="github-stats-card"><img src="https://github-readme-stats.vercel.app/api?username=Roshan-Patro&show_icons=true&count_private=true&theme=merko" alt="roshan-patro"/></p>
                     </div>
                 </div>
-             </div>
+            </div>
+            
+            <div id="top-langs-used">
+                <p id="github-top-langs"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Roshan-Patro&theme=dark" alt="roshan-patro" /></p>
+            </div>
         </section>
     </section>
 
@@ -397,8 +401,8 @@
         
         <div id="contactEmailAddress">
             <div id="contactAndEmailAndAddress">
-                <div id="contactNo"><h4><i class='fas fa-mobile-alt'></i> +91 7377260747</h4></div>
-                <div id="emailId"><h4><i class='fas fa-envelope'></i> patro.roshan1997@gmail.com</h4></div>
+                <div id="contact-phone"><h4><i class='fas fa-mobile-alt'></i> +91 7377260747</h4></div>
+                <div id="contact-email"><h4><i class='fas fa-envelope'></i> patro.roshan1997@gmail.com</h4></div>
                 <div id="address">
                     <h4><i class='fas fa-map-marker-alt'></i> Kabisurya Nagar, Odisha</h4>
                 </div>
@@ -407,8 +411,8 @@
     
         <div id="contact_iconHoler">
             <ul>
-                <li><a href="https://www.linkedin.com/in/t-roshan-kumar-patro/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/Roshan-Patro" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li id="contact-linkedin"><a href="https://www.linkedin.com/in/t-roshan-kumar-patro/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li id="contact-github"><a href="https://github.com/Roshan-Patro" target="_blank"><i class="fa fa-github"></i></a></li>
                 <li><a href="https://twitter.com/Roshank64860817" target="_blank"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="https://www.quora.com/profile/T-Roshan-Kumar-Patro" target="_blank"><i class="fa fa-quora"></i></a></li>
                 <li><a href="https://www.instagram.com/kumar_roshan_patro/" target="_blank"><i class="fa fa-instagram"></i></a></li>
@@ -425,11 +429,10 @@
 
 <script src="js/navbar.js"></script>
 <script src="js/home.js"></script>
-<script src="js/about.js"></script>
 <script src="js/projects.js"></script>
 <script src="js/calendar.js"></script>
 
 <script>
-    GitHubCalendar(".calendar", "roshan-patro");
-    GitHubCalendar(".calendar", "roshan-patro", { responsive: true });
+    GitHubCalendar(".react-activity-calendar", "roshan-patro");
+    GitHubCalendar(".react-activity-calendar", "roshan-patro", { responsive: true });
 </script>

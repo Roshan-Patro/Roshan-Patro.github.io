@@ -20,7 +20,13 @@ const menuBtn = document.querySelector(".menu-btn");
 const cancelBtn = document.querySelector(".cancel-btn");
 const resumeBtnOnNavbar = document.querySelector("#resumeBtnOnNavbar");
 
-resumeBtnOnNavbar.onclick = () =>{
+// resumeBtnOnNavbar.onclick = () =>{
+//     window.open("https://drive.google.com/file/d/1e21ueYGnk5iwn88tFeywiy6knhU0KaUY/view?usp=sharing", '_blank');
+// }
+
+resumeBtnOnNavbar.addEventListener("click", openResume);
+
+function openResume(){
     window.open("https://drive.google.com/file/d/1e21ueYGnk5iwn88tFeywiy6knhU0KaUY/view?usp=sharing", '_blank');
 }
 

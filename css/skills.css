@@ -56,7 +56,7 @@
     width: fit-content;
 }
 
-.tech_cards{
+.skills-card{
     display: flex;
     align-items: center;
     gap: 25px;

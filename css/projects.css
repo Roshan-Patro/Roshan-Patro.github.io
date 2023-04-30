@@ -60,7 +60,7 @@
     border-radius: 7px;
 }
 
-.project_title{
+.project-title{
     margin-bottom: 10px;
     margin-top: 5px;
 }
@@ -77,14 +77,14 @@
     width: 95%;
 }
 
-.project_desc{
+.project-description{
     margin-bottom: 8px;
     margin-right: 3px;
     margin-left: 3px;
     line-height: 1.3;
 }
 
-.tech_stack{
+.project-tech-stack{
     margin-bottom: 8px;
 }
 
@@ -99,7 +99,7 @@
     gap: 12px;
 }
 
-.source_code_btn, .live_btn{
+.project-github-link, .project-deployed-link{
     height: 35px;
     font-size: 16.5px;
     font-weight: bold;
@@ -112,7 +112,7 @@
     border: none;
 }
 
-.source_code_btn:hover, .live_btn:hover{
+.project-github-link:hover, .project-deployed-link:hover{
     cursor: pointer;
     background: #242b37;
     border: 1px solid #92bcb5;
@@ -147,13 +147,13 @@
     .project_img_div{
         height: 40vw;
     }
-    .project_desc{
+    .project-description{
         font-size: 15px;
     }
     .members_days{
         font-size: 15px;
     }
-    .source_code_btn, .live_btn{
+    .project-github-link, .project-deployed-link{
         height: 30px;
         font-size: 15px;
     }
